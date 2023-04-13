@@ -1,0 +1,42 @@
+.iImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.iInfo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iTitle {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.iButton {
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  color: gray;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .iImg {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .iImg {
+    height: 40vh;
+  }
+}

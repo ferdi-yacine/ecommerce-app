@@ -1,0 +1,88 @@
+.leftContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.fDesc {
+  margin: 20px 0px;
+}
+
+.socialContainer {
+  display: flex;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.fIcon {
+  background-color: #3b5999;
+}
+
+.InstIcon {
+  background-color: #e4005f;
+}
+
+.twtIcon {
+  background-color: #5aacee;
+}
+
+.pinIcon {
+  background-color: #e60023;
+}
+
+.centerContainer {
+  flex: 1;
+  padding: 20px;
+}
+
+.fTitle {
+  margin-bottom: 30px;
+}
+
+.fList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fListItem {
+  width: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.rightContainer {
+  flex: 1;
+  padding: 20px;
+}
+
+.contactItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .centerContainer {
+    display: none;
+  }
+
+  .rightContainer {
+    background-color: #fff8f8;
+  }
+}

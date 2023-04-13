@@ -1,0 +1,54 @@
+.nlTittle {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.nlDesc {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  width: 50%;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+
+.nlInput {
+  border: none;
+  flex: 8;
+  padding-left: 20px;
+}
+
+.nlButton {
+  flex: 1;
+  border: none;
+  background-color: teal;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .nlDesc {
+    text-align: center;
+  }
+
+  .inputContainer {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .nlTittle {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .nlDesc {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+}
